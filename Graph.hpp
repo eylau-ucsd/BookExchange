@@ -1,10 +1,11 @@
 #include <vector>
+#include <unordered_set>
 #ifndef GRAPH_H
 #define GRAPH_H
 
 class Graph {
 private:
-    std::vector<std::vector<int>> neighbors; // adjacency list
+    std::vector<std::unordered_set<int>> neighbors; // adjacency list
     int n;
 public:
     Graph(int size);

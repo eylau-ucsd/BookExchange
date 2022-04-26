@@ -1,5 +1,4 @@
 #include <unordered_map>
-#include "Graph.hpp"
 #include "TopoSort.hpp"
 #ifndef SCC_H
 #define SCC_H

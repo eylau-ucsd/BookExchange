@@ -30,7 +30,7 @@ Graph* transposed(Graph* G) {
 
 void SCC::generateSCCs() {
     sentinel = std::vector<int> (G->size(), -1);
-    for (int i = 0; i < sentinel.size(); i++) {
+    for (int i = 0; i < (int) sentinel.size(); i++) {
         sentinel[i] = i;
     }
     visited = std::vector<bool> (G->size(), false);
