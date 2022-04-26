@@ -50,7 +50,7 @@ so that we do not waste time duplicating a search that has already been done
 ## How to compile
 
 Navigate to the root folder of the repository and type "make". An executable
-`main` will be generated.
+`main` will be generated, along with two tests `SCCTest` and `BookExchangeTest`.
 
 ## How to use
 
