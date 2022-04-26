@@ -34,10 +34,10 @@ int main(int argc, char *argv[]) {
     std::string line;
     std::vector<int> wishList = parseWishList(input);
     if (BookEx.isPossible(wishList)) {
-        std::cout << "Yes, book exchanges are possible" << std::endl;
+        std::cout << "Yes, wish list can be fulfilled with the book exchange" << std::endl;
     }
     else {
-        std::cout << "No, book exchanges are not possible" << std::endl;
+        std::cout << "No, wish list cannot be fulfilled with the book exchange" << std::endl;
     }
     delete G;
     G = nullptr;
