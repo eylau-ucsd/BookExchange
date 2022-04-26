@@ -105,5 +105,7 @@ No, wish list cannot be fulfilled with the book exchange
 ## Credits
 
 Problem by [Professor Daniel Kane](https://cseweb.ucsd.edu/~dakane/)
+
 Algorithm by Eugene Lau
+
 Code by Eugene Lau
