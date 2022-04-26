@@ -1,3 +1,5 @@
 BookExchange
 SCCTest
 *.o
+testAssets/
+testAssets/*
