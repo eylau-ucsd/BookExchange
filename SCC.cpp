@@ -34,13 +34,15 @@ void SCC::generateSCCs() {
         sentinel[i] = i;
     }
     visited = std::vector<bool> (G->size(), false);
-    TopoSort TopoTransG = TopoSort(transposed(G));
+    Graph* transposedG = transposed(G);
+    TopoSort TopoTransG = TopoSort(transposedG);
     std::vector<int> order = TopoTransG.getOrder();
     for (int v : order) {
         if (!visited[v]) {
             explore(v);
         }
     }
+    delete transposedG;
 }
 
 int SCC::getSentinel(int v) {
